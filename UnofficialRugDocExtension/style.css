@@ -1,0 +1,659 @@
+
+body,html {
+    width: 782px;/*800px;*/ /* your desired width */
+    max-height: 200px;
+    margin: 0px;
+    /*overflow: hidden;*/ /* Hide scrollbars */
+  }
+  
+  
+  
+  
+  .tab {
+      width: 100%;
+      color: #fff;
+      overflow: hidden;
+      border-radius: 0px;
+      /*height: 100%;*/
+      }
+      
+      .tab-label {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      background: #121a25;
+      border: 1px solid #2c3f51;
+      border-radius: 0px;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 0;
+      font-size: 17px;
+      flex-wrap: wrap;
+      align-items: center
+      }
+      
+      .review-date {
+      font-size: 11px;
+      font-style: italic
+      }
+      
+      .tab-label:hover {
+      background: #1a252f
+      }
+      
+      .tab-label a {
+      color: #e1e8f1
+      }
+      
+      .tab-content {
+      /*max-height: 300vh;*/
+      color: #eaf1fb;
+      background: #141e2c;
+      border-radius: 0 0 0px 0px;
+      font-size: 16px;
+      padding: 0 1em
+      
+      }
+      
+      .rugdoc-review p {
+      margin-bottom: .8em
+      }
+      
+      .tab-label {
+      background: #1a252f;
+      border-radius: 0px 0px 0 0
+      }
+      
+      
+      
+      .proj-info-btns {
+      margin-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%
+      }
+      
+      .tab-project-title {
+      font-family: paralucent, sans-serif;
+      font-weight: 600;
+      font-size: 21px;
+      width: 27%
+      }
+      
+      .tab .network-list {
+      text-align: center
+      }
+      
+      .tab .rugdoc-rating {
+      display: inline-block;
+      font-size: 13px;
+      text-align: center;
+      width: 120px;
+      font-weight: 600;
+      line-height: 2
+      }
+      
+      .tab .rugdoc-rating .red {
+      color: #fff;
+      background: #441215;
+      border: 1px solid #961413;
+      padding: 1px 5px 3px;
+      border-radius: 4px
+      }
+      
+      .tab .rugdoc-rating .red::before,
+      .tab .rugdoc-rating .red::after {
+      content: ' ️⚠️ '
+      }
+      
+      .tab .network-list {
+      display: inline-block;
+      width: 150px
+      }
+      
+      .tab input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1
+      }
+      
+      .tab .website-btn {
+      background: #7ad0dd;
+      color: #0b1013;
+      border-radius: 4px;
+      padding: 7px 12px 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-right: 10px
+      }
+      
+      .tab .review-update{
+      background:#273140;
+      padding:20px 15px 15px;
+      margin-bottom:13px;
+      border-radius:10px;
+      position:relative
+  }
+  .tab .review-update a{
+      color:#fff;
+      border-bottom:1px solid #fff
+  }
+  
+  .review-update p{
+      margin-bottom:.8em
+  }
+  .review-update p:last-child{
+      margin-bottom:0
+  }
+  
+  .update-label{
+      display:inline-block;
+      position:absolute;
+      top:0;
+      left:0;
+      font-size:8px;
+      padding:2px 7px;
+      background:#5c7893;
+      text-transform:uppercase;
+      font-weight:700;
+      letter-spacing:.05em;
+      border-radius:5px 0 5px 0;
+      color:#fff
+  }
+  
+      .tab .more-info-btn,
+      .tab .masterchef-btn {
+      border: 1px solid #7ad0dd;
+      padding: 7px 12px 8px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #d1d9e3;
+      margin-top: 10px;
+      margin-right: 10px
+      }
+      
+      .tab .website-btn:hover {
+      color: #0b1013
+      }
+      
+      .tab .networks {
+      font-size: 13px
+      }
+      
+      .tab .project-website {
+      text-align: center
+      }
+      
+      .tab .project-website a {
+      font-size: 13px
+      }
+      
+      .tab .project-website i {
+      font-size: 9px
+      }
+      
+      .tab .review-labels {
+      display: flex;
+      justify-content: flex-start;
+      top: -5px;
+      left: 20px;
+      position: absolute;
+      width: 100%
+      }
+      
+      .tab .rd_new_label {
+      top: 0;
+      left: 0;
+      margin-right: 10px;
+      position: relative
+      }
+      
+      
+      .jet-filters-pagination__link {
+      padding: 5px
+      }
+      
+      @import url("https://p.typekit.net/p.css?s=1&k=udz2ino&ht=tk&f=27897.28000.28016.28056.34860.34862.34863.34866.34867&a=23663777&app=typekit&e=css");
+      @font-face {
+      font-family: "paralucent";
+      src: url("https://use.typekit.net/af/db5a26/00000000000000007735e51b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"), url("https://use.typekit.net/af/db5a26/00000000000000007735e51b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"), url("https://use.typekit.net/af/db5a26/00000000000000007735e51b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 600
+      }
+      
+      @font-face {
+      font-family: "paralucent";
+      src: url("https://use.typekit.net/af/dcee69/00000000000000007735e51c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/dcee69/00000000000000007735e51c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/dcee69/00000000000000007735e51c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 300
+      }
+      
+      @font-face {
+      font-family: "paralucent";
+      src: url("https://use.typekit.net/af/d450b5/00000000000000007735e518/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/d450b5/00000000000000007735e518/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/d450b5/00000000000000007735e518/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 700
+      }
+      
+      @font-face {
+      font-family: "paralucent";
+      src: url("https://use.typekit.net/af/985f0d/00000000000000007735e519/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/985f0d/00000000000000007735e519/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/985f0d/00000000000000007735e519/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+      font-display: auto;
+      font-style: normal;
+      font-weight: 500
+      }
+      
+      @font-face {
+      font-family: "arboria";
+      src: url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/8ad5fe/00000000000000003b9b011a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+      font-display: swap;
+      font-style: normal;
+      font-weight: 300
+      }
+      
+      @font-face {
+      font-family: "arboria";
+      src: url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/2ed003/00000000000000003b9b011c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+      font-display: swap;
+      font-style: italic;
+      font-weight: 400
+      }
+      
+      @font-face {
+      font-family: "arboria";
+      src: url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/f350ae/00000000000000003b9b011d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+      font-display: swap;
+      font-style: normal;
+      font-weight: 400
+      }
+      
+      @font-face {
+      font-family: "arboria";
+      src: url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/7c0289/00000000000000003b9b0120/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+      font-display: swap;
+      font-style: normal;
+      font-weight: 700
+      }
+      
+      @font-face {
+      font-family: "arboria";
+      src: url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/1f8fa9/00000000000000003b9b0121/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+      font-display: swap;
+      font-style: italic;
+      font-weight: 700
+      }
+      
+      
+      
+      @font-face {
+      font-display: swap;
+      font-family: nicons;
+      src: url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.eot);
+      src: url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.eot#iefix) format('eot'), url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.woff2) format('woff2'), url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.woff) format('woff'), url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.ttf) format('truetype'), url(https://rugdoc.io/content/plugins/elementor-extras/assets/lib/nicons/fonts/nicons.svg#nicons) format('svg')
+      }
+      
+      #ruggodocco > * {
+      --default-editor: var(--true);
+      --border: 0;
+      --transition: all .12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      --listIndent: 2.5em;
+      --listItemSpacing: .3em;
+      --true: initial;
+      --false: "";
+      --has-background: var(--true);
+      --has-link-decoration: var(--true);
+      --has-transparent-header: 0;
+      --container-width: min(100%, var(--container-width-base))
+      }
+      
+      #ruggodocco
+      {
+        /*height: 100%;*/
+      }
+  
+      .tab-content{
+        /*height: 100%;*/
+      }
+      
+      
+      p,
+      ul,
+      li,
+      img,
+      label,
+      address {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: inherit;
+      text-align: inherit;
+      line-height: inherit
+      }
+      
+      input {
+      margin: 0
+      }
+      
+      strong {
+      font-weight: 700
+      }
+      
+      a {
+      transition: var(--transition)
+      }
+      
+      a:focus {
+      transition: none;
+      outline-offset: 3px;
+      outline-color: var(--paletteColor2)
+      }
+      
+      img {
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle
+      }
+      
+      
+      iframe {
+      max-width: 100%
+      }
+      
+      svg>* {
+      transition: none
+      }
+      
+      ul {
+      list-style-type: var(--listStyleType, disc)
+      }
+      
+      
+      html,
+      label {
+      font-family: var(--fontFamily);
+      font-size: var(--fontSize);
+      font-weight: var(--fontWeight);
+      font-style: var(--fontStyle, inherit);
+      line-height: var(--lineHeight);
+      letter-spacing: var(--letterSpacing);
+      text-transform: var(--textTransform);
+      -webkit-text-decoration: var(--textDecoration);
+      text-decoration: var(--textDecoration)
+      }
+      
+      
+      
+      .skip-link {
+      background-color: #24292e;
+      color: #fff;
+      padding: 10px 20px
+      }
+      
+      .show-on-focus {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: 0;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+      top: 0;
+      left: 0
+      }
+      
+      .show-on-focus:focus {
+      z-index: 100;
+      width: auto;
+      height: auto;
+      clip: auto
+      }
+      
+      p {
+      margin-bottom: var(--contentSpacing)
+      }
+      
+      ul {
+      -webkit-padding-start: var(--listIndent);
+      padding-inline-start: var(--listIndent);
+      margin-bottom: var(--contentSpacing)
+      }
+      
+      ul li {
+      margin-bottom: var(--listItemSpacing)
+      }
+      
+      ul li:last-child {
+      margin-bottom: 0
+      }
+      
+      ul ul {
+      margin-top: var(--listItemSpacing);
+      margin-bottom: 0
+      }
+      
+      #ruggodocco > a {
+      color: var(--linkInitialColor);
+      -webkit-text-decoration: var(--has-link-decoration, var(--textDecoration, none));
+      text-decoration: var(--has-link-decoration, var(--textDecoration, none))
+      }
+      
+      
+      
+      label:last-child {
+      margin-bottom: 0
+      }
+      
+      @font-face {
+      font-display: swap;
+      font-family: star;
+      src: url(https://rugdoc.io/content/themes/blocksy/static/fonts/stars.woff2) format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+      }
+      
+      [data-header*=sticky] {
+      --scroll-margin-top-offset: calc((var(--headerStickyHeight, var(--headerHeight, 0)) * var(--has-transparent-header) *(var(--stickyShrink, 100) / 100))+var(--headerStickyHeight, var(--headerHeight, 0)) *(1 - var(--has-transparent-header)))
+      }
+      
+      @media(hover:hover) {}
+      
+      .ct-header-account {
+      display: flex;
+      align-items: var(--align-items, center)
+      }
+      
+      .ct-header-account {
+      --linkInitialColor: var(--color)
+      }
+      
+      #account-modal {
+      --horizontal-alignment: center;
+      --vertical-alignment: center
+      }
+      
+      #header {
+      position: relative;
+      z-index: 50
+      }
+      
+      [data-sticky*=yes] {
+      position: fixed;
+      top: calc(var(--admin-bar, 0px)+var(--frame-size, 0px));
+      left: var(--frame-size, 0);
+      right: var(--frame-size, 0);
+      z-index: 5
+      }
+      
+      
+      [data-header*=type-1] {
+      --stickyShrink: 90;
+      --headerHeight: 70px;
+      --headerStickyHeight: 70px
+      }
+      
+      [data-header*=type-1] [data-id=trigger] {
+      --icon-size: 18px
+      }
+      
+      :root {
+      --fontFamily: arboria, Sans-Serif;
+      --fontWeight: 400;
+      --textTransform: none;
+      --textDecoration: none;
+      --fontSize: 17px;
+      --lineHeight: 1.5;
+      --letterSpacing: 0;
+      --buttonFontWeight: 500;
+      --buttonFontSize: 15px;
+      --has-classic-forms: var(--true);
+      --has-modern-forms: var(--false);
+      --form-field-border-initial-color: var(--border-color);
+      --form-field-border-focus-color: var(--paletteColor1);
+      --form-selection-control-initial-color: var(--border-color);
+      --form-selection-control-accent-color: var(--paletteColor1);
+      --paletteColor1: #5ae9fb;
+      --paletteColor2: #a5f968;
+      --paletteColor3: #e9f7f5;
+      --paletteColor4: #fff;
+      --paletteColor5: #214d55;
+      --paletteColor6: #0b1013;
+      --paletteColor7: #131b1f;
+      --paletteColor8: #1f2a3a;
+      --color: #e9f7f7;
+      --linkInitialColor: var(--paletteColor1);
+      --linkHoverColor: var(--paletteColor2);
+      --selectionTextColor: #fff;
+      --selectionBackgroundColor: var(--paletteColor1);
+      --border-color: var(--paletteColor5);
+      --headings-color: var(--paletteColor4);
+      --contentSpacing: 1.5em;
+      --buttonMinHeight: 40px;
+      --buttonTextInitialColor: var(--paletteColor6);
+      --buttonTextHoverColor: var(--paletteColor6);
+      --buttonInitialColor: var(--paletteColor1);
+      --buttonHoverColor: var(--paletteColor2);
+      --button-border: 0;
+      --buttonBorderRadius: 3px;
+      --container-max-width: 1290px;
+      --content-vertical-spacing: 60px;
+      --narrow-container-max-width: 750px;
+      --wide-offset: 130px
+      }
+      
+
+      a {
+        color: var(--linkInitialColor);
+        -webkit-text-decoration: var(--has-link-decoration,var(--textDecoration,none));
+        text-decoration: var(--has-link-decoration,var(--textDecoration,none));
+    }
+      
+      
+      .rd_new_label {
+      background: #58ca78;
+      color: #0b1013;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 2px 5px 1px 7px;
+      top: -17px;
+      position: absolute;
+      left: -22px;
+      border-radius: 5px
+      }
+      
+      .networks {
+      margin-right: 10px;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 600;
+      display: inline-block;
+      background: rgba(6, 6, 6, .2);
+      border: 1px solid rgba(255, 255, 255, .1);
+      border-radius: 5px;
+      padding: 6px 6px 7px!important
+      }
+      
+      .network-logo {
+      max-width: 13px;
+      width: 13px;
+      height: auto;
+      margin-right: 2px
+      }
+      .tab .network-logo {
+        width: 30px;
+        margin-left: 2px;
+        background: #020d19;
+        padding: 7px;
+        border-radius: 50px;
+    }
+      
+      .modified-date {
+      font-size: 11px;
+      font-style: italic
+      }
+      
+      
+      /*!* Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+        * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)*/
+      
+      @font-face {
+      font-display: swap;
+      font-family: fontawesome;
+      src: url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0);
+      src: url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot#iefix&v=4.7.0) format('embedded-opentype'), url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(https://rugdoc.io/content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+      font-weight: 400;
+      font-style: normal
+      }
+      
+      .risk-button {
+        border: none;
+        background: 0 0;
+        padding: 0;
+        color: #7ad0dd;
+        cursor: pointer;
+        font-family: arboria,sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+    }
+      
+      .tab .rugdoc-rating .red::before,.tab .rugdoc-rating .red::after{
+         content:'\f071';
+         font-family:"font awesome 5 pro";
+         margin:0 2px;
+         color:#ffe000
+      }
+      .tab .rugdoc-rating .neutral{
+         color:#fff;
+         background:#3f546a;
+         border:1px solid #5c7894;
+         padding:4px 5px 6px;
+         border-radius:4px
+      }
+      .tab .rugdoc-rating .green{
+         color:#fff;
+         background:#1f6236;
+         border:1px solid #258e3b;
+         padding:4px 5px 6px;
+         border-radius:4px;
+      }
+      .tab .rugdoc-rating .grey{
+         color:#505d6f;
+         background:#1b2733;
+         border:1px solid #2f3944;
+         padding:4px 5px 6px;
+         border-radius:4px
+      }
+      .tab .rugdoc-rating .orange{
+         color:#fff;
+         background:#835822;
+         border:1px solid #cc7d08;
+         padding:4px 5px 6px;
+         border-radius:4px
+      }
