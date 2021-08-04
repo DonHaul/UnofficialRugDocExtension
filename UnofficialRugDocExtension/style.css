@@ -1,22 +1,11 @@
 
 body,html {
     width: 782px;/*800px;*/ /* your desired width */
+    max-height: 200px;
     margin: 0px;
-    height: 100%;
-    background: #141e2c;
     /*overflow: hidden;*/ /* Hide scrollbars */
   }
   
-  #ruggodocco
-  {
-    /*height: 100px;*/
-    height: 100%;
-  }
-
-  .tab-content{
-    min-height: 100px;
-    /*height: 100%;*/
-  }
   
   
   
@@ -25,7 +14,6 @@ body,html {
       color: #fff;
       overflow: hidden;
       border-radius: 0px;
-   
       /*height: 100%;*/
       }
       
@@ -96,8 +84,6 @@ body,html {
       .tab .network-list {
       text-align: center
       }
-
-
       
       .tab .rugdoc-rating {
       display: inline-block;
@@ -108,15 +94,6 @@ body,html {
       line-height: 2
       }
       
-
-      .tab .rugdoc-rating .blue {
-        color: #fff;
-        background: #215489;
-        border: 1px solid #4b81b9;
-        padding: 4px 5px 6px;
-        border-radius: 4px;
-    }
-
       .tab .rugdoc-rating .red {
       color: #fff;
       background: #441215;
@@ -336,7 +313,15 @@ body,html {
       --container-width: min(100%, var(--container-width-base))
       }
       
-
+      #ruggodocco
+      {
+        /*height: 100%;*/
+      }
+  
+      .tab-content{
+        /*height: 100%;*/
+      }
+      
       
       p,
       ul,

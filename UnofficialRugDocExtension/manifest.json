@@ -1,9 +1,9 @@
 {
   "name": "Unofficial RugDoc Extension",
-  "version": "1.2",
+  "version": "1.0",
   "description": "Instant Knowledge on Farm security",
-  "host_permissions":["http://*/*","https://*/*","https://rugdoc.io/*"],
-  "permissions": ["storage","tabs"],
+  "host_permissions":["http://web.tecnico.ulisboa.pt/*","https://rugdoc.io/*"],
+  "permissions": ["tabs"],
   "options_page": "options.html",
   "action": {
     "default_popup": "popup.html",
@@ -14,10 +14,7 @@
   },
   "background":{
   "service_worker":"background.js"},
-  "content_scripts":[{
-    "matches":["<all_urls>"],
-    "js": ["content_script.js"],
-    "run_at": "document_end"
-  }],
   "manifest_version": 3
+
+
 }
